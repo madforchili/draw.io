@@ -1,4 +1,4 @@
-<mxfile modified="2023-07-17T23:58:45.947Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="R3hQQ5QOFUzPCQdX5Ced" version="21.6.2" type="github">
+<mxfile modified="2023-07-18T03:08:06.076Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="VYCBWsWxRqDW4K_EM9Nb" version="21.6.2" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1179" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -114,9 +114,6 @@
         </mxCell>
         <mxCell id="0c_8ZJ9dsGEf4wfzU03W-52" value="172.28.87.197" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Endpoint.svg;" vertex="1" parent="1">
           <mxGeometry x="137.25" y="238" width="43.64" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="0c_8ZJ9dsGEf4wfzU03W-53" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoints;" vertex="1" parent="1">
-          <mxGeometry x="510" y="430" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="0c_8ZJ9dsGEf4wfzU03W-54" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
           <mxGeometry x="125.07" y="80" width="68" height="68" as="geometry" />
