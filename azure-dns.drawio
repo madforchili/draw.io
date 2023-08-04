@@ -1,4 +1,4 @@
-<mxfile modified="2023-08-04T01:29:15.475Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="pnqJ3-UrqT5h8KShPQXZ" version="21.6.5" type="github">
+<mxfile modified="2023-08-04T01:36:17.121Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ztCpVunet9a5IvTyR3IZ" version="21.6.5" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="977" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -81,6 +81,9 @@
               <mxPoint x="120" y="650" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XnBJC6g6nOG88-6dQDU8-31" value="" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.firewall;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
