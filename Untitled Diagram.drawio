@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T00:26:49.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XEkxE_1VdzMrD6Cr14Pz" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T00:30:38.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="DaW0ErCCd_lutAR5cRLH" version="21.6.8" type="github">
   <diagram name="Page-1" id="C-AgzObuSpGEJH9MZPCi">
     <mxGraphModel dx="1619" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-1" value="" style="rounded=1;whiteSpace=wrap;html=1;color=#E5E8E8;fillColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="630" height="550" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;" vertex="1" parent="1">
           <mxGeometry x="170" y="180" width="31" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="160" y="310" width="250" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="460" y="310" width="250" height="420" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-5" value="rg-mdp-infra" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
@@ -67,7 +67,7 @@
           <mxGeometry x="900" y="40" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-25" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="910" y="240" width="160" height="70" as="geometry" />
+          <mxGeometry x="920" y="220" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-26" value="&lt;b&gt;SG-Azure-MDP-Data-Developers&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Blob Storage Contributor&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="885" y="370" width="210" height="70" as="geometry" />
