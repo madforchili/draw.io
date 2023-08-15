@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T00:30:38.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="DaW0ErCCd_lutAR5cRLH" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T00:33:07.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XmcbzNUjkjYclxblieSQ" version="21.6.8" type="github">
   <diagram name="Page-1" id="C-AgzObuSpGEJH9MZPCi">
     <mxGraphModel dx="1619" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tQHCMrDT34ir8bHBtCiH-1" value="" style="rounded=1;whiteSpace=wrap;html=1;color=#E5E8E8;fillColor=#67AB9F;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="630" height="550" as="geometry" />
+          <mxGeometry x="120" y="180" width="630" height="570" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;" vertex="1" parent="1">
-          <mxGeometry x="170" y="180" width="31" height="50" as="geometry" />
+          <mxGeometry x="170" y="150" width="31" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="160" y="310" width="250" height="420" as="geometry" />
@@ -47,36 +47,47 @@
           <mxGeometry x="527" y="414" width="57.5" height="46" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="370" />
+              <mxPoint x="247" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-24" value="Pipeline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tQHCMrDT34ir8bHBtCiH-22">
-          <mxGeometry x="-0.2236" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="690" />
+              <mxPoint x="345" y="690" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="660" />
+              <mxPoint x="649" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-16" value="Azure DevOps Service&lt;br&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
-          <mxGeometry x="900" y="40" width="64" height="64" as="geometry" />
+          <mxGeometry x="968" y="470" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-25" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="920" y="220" width="160" height="70" as="geometry" />
+          <mxGeometry x="280" y="30" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-26" value="&lt;b&gt;SG-Azure-MDP-Data-Developers&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Blob Storage Contributor&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="885" y="370" width="210" height="70" as="geometry" />
+          <mxGeometry x="465" y="30" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-27" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Data-Analyst&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Data Factory Reader&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Policy Reader&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="895" y="500" width="190" height="70" as="geometry" />
+          <mxGeometry x="695" y="30" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-28" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="920" y="615" width="160" height="70" as="geometry" />
+          <mxGeometry x="920" y="30" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
