@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T00:22:14.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="IGaOuk-g0cQuSB4sa70J" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T00:26:49.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XEkxE_1VdzMrD6Cr14Pz" version="21.6.8" type="github">
   <diagram name="Page-1" id="C-AgzObuSpGEJH9MZPCi">
     <mxGraphModel dx="1619" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,22 +22,22 @@
         <mxCell id="tQHCMrDT34ir8bHBtCiH-6" value="rg-mdp-app" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="1">
           <mxGeometry x="490" y="290" width="42.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-10" value="&lt;b&gt;SG-Azure-MDP-Data-Analyst&lt;/b&gt;&lt;br&gt;&lt;br&gt;- Data Factory Reader&lt;br&gt;- Policy Reader" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="201" y="580" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
-          <mxGeometry x="220" y="550" width="50" height="50" as="geometry" />
+          <mxGeometry x="320" y="550" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-11" value="&lt;b&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br&gt;&lt;br&gt;- Blob Storage Contirbutor&lt;br&gt;-&amp;nbsp;Key Vault Secrets Officer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="590" width="189" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-9" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
-          <mxGeometry x="530" y="550" width="55" height="55" as="geometry" />
+          <mxGeometry x="620" y="550" width="55" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-14" value="SG-Azure-MDP-Data-Developers&lt;br&gt;&lt;br&gt;- Blob Storage Contributor&lt;br&gt;- Key Vault Secrets Officer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="440" width="189" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tQHCMrDT34ir8bHBtCiH-13" value="&lt;b&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br&gt;&lt;br&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="201" y="440" width="189" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
@@ -45,6 +45,38 @@
         </mxCell>
         <mxCell id="tQHCMrDT34ir8bHBtCiH-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
           <mxGeometry x="527" y="414" width="57.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-24" value="Pipeline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tQHCMrDT34ir8bHBtCiH-22">
+          <mxGeometry x="-0.2236" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQHCMrDT34ir8bHBtCiH-16" target="tQHCMrDT34ir8bHBtCiH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-16" value="Azure DevOps Service&lt;br&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Azure_DevOps.svg;" vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-25" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="240" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-26" value="&lt;b&gt;SG-Azure-MDP-Data-Developers&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Blob Storage Contributor&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="885" y="370" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-27" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Data-Analyst&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Data Factory Reader&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;- Policy Reader&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="895" y="500" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tQHCMrDT34ir8bHBtCiH-28" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;SG-Azure-MDP-Engineer&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- Blob Storage Contirbutor&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp;Key Vault Secrets Officer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="615" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
