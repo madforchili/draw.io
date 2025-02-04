@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="24.7.7">
+  <diagram name="Page-1" id="OzoMvpzMCRiiEoA7dr-_">
+    <mxGraphModel dx="203" dy="121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-45" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="120" width="902.51" height="462.36" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-2" value="vmwerwinprdsyd&lt;br&gt;Erwin Mart App Server Temp" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-45">
+          <mxGeometry x="760" y="262.36" width="64.69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-42" value="" style="swimlane;startSize=0;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-45">
+          <mxGeometry y="22.36" width="360" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-7" value="rg-erwin-prd-mel" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-42">
+          <mxGeometry x="-20" y="-20" width="40" height="37.64" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-43" value="" style="group" vertex="1" connectable="0" parent="VnVVwKFuJBLF5rLYgSUV-45">
+          <mxGeometry x="105.31" y="62.36" width="519.3800000000001" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-43" source="VnVVwKFuJBLF5rLYgSUV-1" target="VnVVwKFuJBLF5rLYgSUV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-1" value="vmwerwinprdmel&lt;br&gt;Erwin Mart Application Server" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry y="200" width="64.69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-43" source="VnVVwKFuJBLF5rLYgSUV-18" target="VnVVwKFuJBLF5rLYgSUV-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="74.69" y="-20.000034566194316" as="sourcePoint" />
+            <mxPoint x="559.8580000000002" y="297.37999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-6" value="Geo Replication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnVVwKFuJBLF5rLYgSUV-5">
+          <mxGeometry x="-0.0483" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-16" value="" style="swimlane;startSize=0;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry x="14.689999999999998" width="160" height="160" as="geometry">
+            <mxRectangle x="120" y="80" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-3" value="sql-erwin-prd-mel" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-16">
+          <mxGeometry x="-20" y="-30" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-18" value="sqldb-erwin-prd-mel" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-16">
+          <mxGeometry x="80" y="30" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.979;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="216.61" as="sourcePoint" />
+            <mxPoint x="126.99200000000008" y="67.64200000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="68" />
+              <mxPoint x="150" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-21" value="" style="swimlane;startSize=0;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry x="334.69" width="160" height="160" as="geometry">
+            <mxRectangle x="120" y="80" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-22" value="sql-erwin-prd-syd" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-21">
+          <mxGeometry x="130" y="-42" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-23" value="sqldb-erwin-prd-syd" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-21">
+          <mxGeometry x="40" y="30" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40.00999999999999" y="215" as="sourcePoint" />
+            <mxPoint x="39.99000000000001" y="67.63199999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="68" />
+              <mxPoint x="40" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-24" value="Failover Group" style="swimlane;startSize=0;dashed=1;strokeColor=#fa0000;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry x="64.69" y="25" width="390" height="110" as="geometry">
+            <mxRectangle x="40" y="230" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-29" value="Read-Write Listener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry x="174.69" y="215" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-43" source="VnVVwKFuJBLF5rLYgSUV-32" target="VnVVwKFuJBLF5rLYgSUV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-32" value="vmwerwinprdmel-replica&lt;br&gt;Erwin Mart Application Server" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;opacity=10;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-43">
+          <mxGeometry x="454.69" y="200" width="64.69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VnVVwKFuJBLF5rLYgSUV-43" source="VnVVwKFuJBLF5rLYgSUV-1" target="VnVVwKFuJBLF5rLYgSUV-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="32.69" y="340" />
+              <mxPoint x="485.69" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-40" value="Replication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VnVVwKFuJBLF5rLYgSUV-35">
+          <mxGeometry x="0.0119" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-44" value="" style="swimlane;startSize=0;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-45">
+          <mxGeometry x="400" y="22.36" width="482.51" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="VnVVwKFuJBLF5rLYgSUV-11" value="rg-erwin-prd-syd" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Resource_Groups.svg;" vertex="1" parent="VnVVwKFuJBLF5rLYgSUV-45">
+          <mxGeometry x="860" width="42.51" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
