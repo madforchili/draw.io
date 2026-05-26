@@ -4,29 +4,38 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-2" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="200" width="240" x="50" y="110" as="geometry" />
-        </mxCell>
         <mxCell id="6SHZ2l3FFVmrRffyESg1-1" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Bootstrap_Vol_2-2296/dash-square-dotted-562.svg" value="" vertex="1">
           <mxGeometry height="16" width="16" x="550" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="180" width="240" x="640" y="80" as="geometry" />
+        <mxCell id="hfQEQvBA9q5r9goTpwPG-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="140" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="aks-argocd-prd-mel" vertex="1">
-          <mxGeometry height="60" width="68" x="110" y="140" as="geometry" />
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-2" parent="hfQEQvBA9q5r9goTpwPG-1" style="html=1;dashed=0;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="200" width="240" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" value="" vertex="1">
-          <mxGeometry height="40" width="67" x="50" y="90" as="geometry" />
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-4" parent="hfQEQvBA9q5r9goTpwPG-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="aks-argocd-prd-mel" vertex="1">
+          <mxGeometry height="60" width="68" x="60" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-6" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/386ae599-a6d1-4a3f-94f2-0b0a11bf764f/resourceGroups/rg-prd-mel-integ-platform/providers/Microsoft.ContainerService/managedClusters/aks-prd-mel-dde-integ&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-169&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 120, 212); outline: none; text-decoration: none; text-align: left; overflow: hidden; text-overflow: ellipsis;&quot;&gt;aks-prd-mel-dde-integ&lt;/a&gt;" vertex="1">
-          <mxGeometry height="60" width="68" x="610" y="90" as="geometry" />
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-5" parent="hfQEQvBA9q5r9goTpwPG-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="67" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="180" width="240" x="640" y="400" as="geometry" />
+        <mxCell id="hfQEQvBA9q5r9goTpwPG-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="270" x="810" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="6SHZ2l3FFVmrRffyESg1-8" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/386ae599-a6d1-4a3f-94f2-0b0a11bf764f/resourceGroups/rg-prd-syd-integ-platform/providers/Microsoft.ContainerService/managedClusters/aks-prd-syd-cot-integ&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-169&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 120, 212); outline: none; text-decoration: none; text-align: left; overflow: hidden; text-overflow: ellipsis;&quot;&gt;aks-prd-syd-cot-integ&lt;/a&gt;" vertex="1">
-          <mxGeometry height="60" width="68" x="610" y="410" as="geometry" />
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-3" parent="hfQEQvBA9q5r9goTpwPG-2" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="240" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-6" parent="hfQEQvBA9q5r9goTpwPG-2" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/386ae599-a6d1-4a3f-94f2-0b0a11bf764f/resourceGroups/rg-prd-mel-integ-platform/providers/Microsoft.ContainerService/managedClusters/aks-prd-mel-dde-integ&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-169&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 120, 212); outline: none; text-decoration: none; text-align: left; overflow: hidden; text-overflow: ellipsis;&quot;&gt;aks-prd-mel-dde-integ&lt;/a&gt;" vertex="1">
+          <mxGeometry height="60" width="68" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hfQEQvBA9q5r9goTpwPG-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="180" width="270" x="810" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-7" parent="hfQEQvBA9q5r9goTpwPG-3" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="240" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6SHZ2l3FFVmrRffyESg1-8" parent="hfQEQvBA9q5r9goTpwPG-3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/386ae599-a6d1-4a3f-94f2-0b0a11bf764f/resourceGroups/rg-prd-syd-integ-platform/providers/Microsoft.ContainerService/managedClusters/aks-prd-syd-cot-integ&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-169&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 120, 212); outline: none; text-decoration: none; text-align: left; overflow: hidden; text-overflow: ellipsis;&quot;&gt;aks-prd-syd-cot-integ&lt;/a&gt;" vertex="1">
+          <mxGeometry height="60" width="68" y="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
