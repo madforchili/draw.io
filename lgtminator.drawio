@@ -11,15 +11,15 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="310" />
-              <mxPoint x="760" y="450" />
-              <mxPoint x="179" y="450" />
+              <mxPoint x="760" y="400" />
+              <mxPoint x="179" y="400" />
             </Array>
             <mxPoint x="970" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZoEeiNTYHsuw9lRX89n9-32" connectable="0" parent="ZoEeiNTYHsuw9lRX89n9-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Pull Request Review and Comment&lt;br&gt;Approve PR" vertex="1">
           <mxGeometry relative="1" x="-0.0114" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-48" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZoEeiNTYHsuw9lRX89n9-10" edge="1" parent="1" source="ZoEeiNTYHsuw9lRX89n9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZoEeiNTYHsuw9lRX89n9-7" value="">
@@ -68,6 +68,45 @@
         </mxCell>
         <mxCell id="ZoEeiNTYHsuw9lRX89n9-21" parent="ZoEeiNTYHsuw9lRX89n9-22" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(225, 223, 221); color: rgb(0, 90, 158); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; text-align: start; white-space: normal;&quot;&gt;vnet-sbx-mel&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="27.13" width="45.44" x="260" y="-7.131851851851849" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-36" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/AI_Studio.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/1c8f4e6c-715b-41fa-9187-453d5d973e26/resourceGroups/rg-sbx-ai-poc/providers/Microsoft.CognitiveServices/accounts/sbx-ai-poc-resource&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-342&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 90, 158); outline: none; text-decoration: none; text-align: left; background-color: rgb(223, 223, 223); overflow: hidden; text-overflow: ellipsis;&quot;&gt;sbx-ai-poc-resource&lt;/a&gt;&lt;br&gt;lgtminator / gpt-4.0" vertex="1">
+          <mxGeometry height="68" width="64" x="830" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-37" edge="1" parent="1" source="ZoEeiNTYHsuw9lRX89n9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZoEeiNTYHsuw9lRX89n9-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-40" edge="1" parent="1" source="ZoEeiNTYHsuw9lRX89n9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZoEeiNTYHsuw9lRX89n9-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-47" connectable="0" parent="ZoEeiNTYHsuw9lRX89n9-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Project Admin" vertex="1">
+          <mxGeometry relative="1" x="-0.2597" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-42" edge="1" parent="1" source="ZoEeiNTYHsuw9lRX89n9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZoEeiNTYHsuw9lRX89n9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-43" connectable="0" parent="ZoEeiNTYHsuw9lRX89n9-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Congnitive Service User" vertex="1">
+          <mxGeometry relative="1" x="0.2321" y="-5" as="geometry">
+            <mxPoint x="-33" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-39" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Managed_Identities.svg;" value="&lt;a href=&quot;https://portal.azure.com/#resource/subscriptions/1c8f4e6c-715b-41fa-9187-453d5d973e26/resourceGroups/rg-lgtminator-sbx-syd/providers/Microsoft.ManagedIdentity/userAssignedIdentities/uami-lgtminator-sbx-syd&quot; class=&quot;ms-Link ext-hubs-browse-resource-link root-217&quot; tabindex=&quot;-1&quot; style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, &amp;quot;Segoe UI&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; -webkit-font-smoothing: antialiased; font-size: 13px; color: rgb(0, 120, 212); outline: none; text-decoration: none; text-align: left; overflow: hidden; text-overflow: ellipsis;&quot;&gt;uami-lgtminator-sbx-syd&lt;/a&gt;" vertex="1">
+          <mxGeometry height="50" width="38" x="382" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-41" edge="1" parent="1" source="ZoEeiNTYHsuw9lRX89n9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZoEeiNTYHsuw9lRX89n9-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoEeiNTYHsuw9lRX89n9-48" connectable="0" parent="ZoEeiNTYHsuw9lRX89n9-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SA" vertex="1">
+          <mxGeometry relative="1" x="-0.5831" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
